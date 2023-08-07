@@ -1,6 +1,12 @@
 name: (GCC)Kernel Builder XiaoMi Note3
 
-on: [push]
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+    paths-ignore:
+      - "**/README.md"
 
 jobs:
   build:
