@@ -29,7 +29,7 @@ jobs:
         sudo cp ./res/libdebuginfod.so.1 /usr/lib
         sudo chmod 777 /usr/lib/libdebuginfod.so.1
 
-        git clone --depth=1 https://github.com/MiCode/Xiaomi_Kernel_OpenSource -b jason-n-oss jason
+        git clone --depth=1 https://github.com/MiCode/Xiaomi_Kernel_OpenSource -b jason-p-oss jason
         mv jason source
         cd source
       
